@@ -1,0 +1,17 @@
+{
+	"name": "SqlServer1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=True;data source=APL-5CD0535CGP;initial catalog=db1",
+			"userName": "WIPRO\\GR20203510",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJiMDg1OTU2NS0xNjk4LTRmZDYtYWRlNy02YjRhYzg4ODc3ZWMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "SelfHosterRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

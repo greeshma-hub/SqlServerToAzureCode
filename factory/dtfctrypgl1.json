@@ -1,0 +1,9 @@
+{
+	"name": "dtfctrypgl1",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8bbc2da4-5b09-4bb1-a45d-ffb80ca520c5",
+		"tenantId": "258ac4e4-146a-411e-9dc8-79a9e12fd6da"
+	}
+}
